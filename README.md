@@ -1,7 +1,9 @@
 # Disk Scheduling Simulator
+```text
 An interactive disk scheduling simulator that demonstrates and compares classic disk scheduling algorithms such as **FCFS, SSTF, SCAN, and C-SCAN**.
 The project visualizes disk head movement and computes performance metrics like **total seek time**, **average seek time**, and **system throughput**.
 This simulator is designed for **Operating Systems coursework**, **learning**, and **performance analysis**.
+```
 ---
 ## 📌 Features
 - Implements major disk scheduling algorithms:
@@ -47,11 +49,13 @@ cd disk-scheduling-simulator
 ```bash
 pip install -r requirements.txt
 ```
-##▶️ Usage
+## ▶️ Usage
 - Run the simulator using the command line:
 ```bash
 python run_sim.py --algorithm fcfs --disk-size 200 --head 50 --requests 82,170,43,140,24,16,190
 ```
+---
+
 ### Arguments
 | Argument | Description |
 |-----------------|-------------------------------------------------------|
@@ -63,6 +67,8 @@ python run_sim.py --algorithm fcfs --disk-size 200 --head 50 --requests 82,170,4
 ```bash
 python run_sim.py -a sstf -d 200 -H 50 -r 82,170,43,140,24,16,190
 ```
+---
+
 ## 📊 Sample Output
 - Head movement sequence
 - Seek distance per step
@@ -76,6 +82,8 @@ Positions visited: [50, 43, 24, 16, 82, 140, 170, 190]
 Total seek: 208
 Average seek: 29.71
 ```
+---
+
 ## 📈 Performance Metrics
   - Seek Distance
     |current_track − next_track|
@@ -92,12 +100,14 @@ Average seek: 29.71
   - Tools:
       - Git & GitHub
       - Kali Linux
+---
 ## 📚 Educational Relevance
 This project helps understand:
   - Disk I/O scheduling in Operating Systems
   - Trade-offs between fairness and performance
   - Seek time optimization
   - Algorithm comparison using real metrics
+---
 ## 🔮 Future Enhancements
   - GUI / Web-based visualization (Streamlit or React)
   - Animated disk head movement
@@ -105,5 +115,6 @@ This project helps understand:
   - Batch simulations and algorithm comparison graphs
   - Export results as CSV/JSON
 
+---
 ## 📄 License
 This project is open-source and available under the MIT License.
