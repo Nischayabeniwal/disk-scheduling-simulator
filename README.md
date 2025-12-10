@@ -76,38 +76,34 @@ Positions visited: [50, 43, 24, 16, 82, 140, 170, 190]
 Total seek: 208
 Average seek: 29.71
 ```
-##📈 Performance Metrics
-    Seek Distance
+## 📈 Performance Metrics
+  - Seek Distance
     |current_track − next_track|
-    Total Seek Time
+  - Total Seek Time
     Sum of all seek distances
-    Average Seek Time
+  - Average Seek Time
     Total seek / Number of requests
-    Throughput (optional)
+  - Throughput (optional)
     Requests serviced per unit seek time
 🛠️ Technologies Used
-    Language: Python 3
-    Libraries:
-        tabulate (CLI tables)
-    Tools:
-        Git & GitHub
-        Kali Linux
-📚 Educational Relevance
+  - Language: Python 3
+  - Libraries:
+      - tabulate (CLI tables)
+  - Tools:
+      - Git & GitHub
+      - Kali Linux
+## 📚 Educational Relevance
 This project helps understand:
-    Disk I/O scheduling in Operating Systems
-    Trade-offs between fairness and performance
-    Seek time optimization
-    Algorithm comparison using real metrics
-🔮 Future Enhancements
-    GUI / Web-based visualization (Streamlit or React)
-    Animated disk head movement
-    Support for arrival times of requests
-    Batch simulations and algorithm comparison graphs
-    Export results as CSV/JSON
-👤 Author
-Your Name
-Computer Science / Cybersecurity Student
-GitHub: https://github.com/
-<your-username>
-📄 License
+  - Disk I/O scheduling in Operating Systems
+  - Trade-offs between fairness and performance
+  - Seek time optimization
+  - Algorithm comparison using real metrics
+## 🔮 Future Enhancements
+  - GUI / Web-based visualization (Streamlit or React)
+  - Animated disk head movement
+  - Support for arrival times of requests
+  - Batch simulations and algorithm comparison graphs
+  - Export results as CSV/JSON
+
+## 📄 License
 This project is open-source and available under the MIT License.
