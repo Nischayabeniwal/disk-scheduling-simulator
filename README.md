@@ -32,7 +32,7 @@ disk-scheduling-simulator/
 │ ├── disk.py # Disk and result data models
 │ └── algorithms.py # Disk scheduling algorithms
 ├── run_sim.py # CLI entry point
-├── tests/ # Unit tests (to be added)
+├── docs/
 ├── requirements.txt # Python dependencies
 └── README.md
 ```
