@@ -2,7 +2,13 @@ import argparse
 from tabulate import tabulate
 
 from simulator.disk import Disk
-from simulator.algorithms import simulate_fcfs, simulate_sstf
+#from simulator.algorithms import simulate_fcfs, simulate_sstf
+from simulator.algorithms import (
+    simulate_fcfs,
+    simulate_sstf,
+    simulate_scan,
+    simulate_cscan,
+)
 
 
 def parse_requests(s):
@@ -21,7 +27,7 @@ def main():
     parser.add_argument(
         "--algorithm",
         "-a",
-        choices=["fcfs", "sstf"],
+        choices=["fcfs", "sstf","scan","cscan"],
         default="fcfs",
         help="Scheduling algorithm to use",
     )
@@ -56,8 +62,13 @@ def main():
         result = simulate_fcfs(requests, disk)
     elif args.algorithm == "sstf":
         result = simulate_sstf(requests, disk)
+    elif args.algorithm == "scan":
+        result = simulate_scan(requests, disk)
+    elif args.algorithm == "cscan":
+        result = simulate_cscan(requests, disk)
     else:
         raise ValueError("Unsupported algorithm")
+
 
     # Print results
     print(f"\nAlgorithm: {result.algorithm_name}")
