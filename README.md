@@ -110,6 +110,8 @@ The GUI shows:
   - Step-by-step movement table
   - Head movement animation on a track line
   - Play / Pause animation button
+![GUI Screenshot](screenshot.png)
+
 ---
 ## 📚 Educational Relevance
 This project helps understand:
