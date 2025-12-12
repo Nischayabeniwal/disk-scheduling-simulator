@@ -101,6 +101,16 @@ Average seek: 29.71
       - Git & GitHub
       - Kali Linux
 ---
+## 🖼️ GUI Preview (description)
+
+The GUI shows:
+
+  - Input fields (requests, disk size, direction)
+  - Algorithm dropdown
+  - Step-by-step movement table
+  - Head movement animation on a track line
+  - Play / Pause animation button
+---
 ## 📚 Educational Relevance
 This project helps understand:
   - Disk I/O scheduling in Operating Systems
